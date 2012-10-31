@@ -1,4 +1,4 @@
-#!/bin/sh -vx
+#!/bin/sh
 if [ "$#" -ne 2 ]; then
     echo "Error: url not supplied."
     echo "Usage: $0  \"redirect times\" \"url\""
